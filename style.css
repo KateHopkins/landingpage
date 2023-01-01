@@ -90,13 +90,13 @@ body {
   }
 
   .boxes {
-    padding-top: 50px;
-    display: flex;
+     display: flex;
     flex-wrap: wrap;
-    min-width: 100%;
-    padding: 10px;
-    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    align-self: center;
     justify-content: center;
+
   }
 
   .quote {
@@ -115,6 +115,28 @@ body {
     min-width: 100%;
   }
   
-  .snap {
-   
+  .card {
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    border-radius: 25px;
+    border: 2px solid rgb(66, 60, 125);
+    background-color: rgb(156, 152, 189);
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+  }
+
+  .caption {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+  }
+
+  .new {
+    padding-top: 20px;
   }
