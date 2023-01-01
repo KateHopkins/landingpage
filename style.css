@@ -14,7 +14,7 @@ body {
     color: white;
     display: flex;
     margin-bottom: auto;
-    min-width: 100.5%;
+    min-width: 95%;
     padding: 10px;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +28,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: auto;
-    min-width: 103.25%;
+    min-width: 100%;
   }
 
   ul {
@@ -58,7 +58,6 @@ body {
     background-color:rgb(156, 152, 189);
     padding-top: 16px;
     padding-left: 16px;
-    min-width: 100.75%;
   }
 
   .left {
@@ -102,7 +101,7 @@ body {
   .quote {
     font-size: 20px;
     margin-top: 50px;
-    padding: 7em 9em;
+    height: 300px;
     border: 1px solid rgb(0, 0, 0);
     background-image: url(background.jpg);
     background-position: center;
@@ -111,7 +110,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    min-width: 80.5%;
+    min-width: 100%;
   }
   
   .card {
